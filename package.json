@@ -1,0 +1,37 @@
+{
+  "name": "New_Application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/",
+  "dependencies": {
+    "bower": "^1.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node_modules/.bin/bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edmundquintero/New_Application.git"
+  },
+  "author": "Edmund Quintero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edmundquintero/New_Application/issues"
+  },
+  "homepage": "https://github.com/edmundquintero/New_Application",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-banner": "^0.4.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-wiredep": "^2.0.0",
+    "less-plugin-autoprefix": "^1.4.1",
+    "less-plugin-clean-css": "^1.5.0"
+  }
+}
